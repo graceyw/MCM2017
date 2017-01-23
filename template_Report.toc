@@ -1,15 +1,16 @@
-\contentsline {part}{I\hspace {1em}Motivation}{1}
-\contentsline {section}{\numberline {0.1}Smart Growth}{2}
-\contentsline {subsection}{\numberline {0.1.1}Factors}{2}
-\contentsline {subsection}{\numberline {0.1.2}Our Interpretation}{2}
-\contentsline {section}{\numberline {0.2}Cities}{2}
-\contentsline {subsection}{\numberline {0.2.1}Why Oakland}{2}
-\contentsline {subsection}{\numberline {0.2.2}Why some other non-American city}{2}
-\contentsline {section}{\numberline {0.3}Goals}{2}
-\contentsline {part}{II\hspace {1em}What We Did}{3}
-\contentsline {section}{\numberline {0.4}Our Model}{4}
-\contentsline {section}{\numberline {0.5}Our Results}{4}
-\contentsline {section}{\numberline {0.6}What It Means: Our Interpretation}{4}
-\contentsline {part}{III\hspace {1em}The Answer}{5}
-\contentsline {section}{\numberline {0.7}Our Suggestions}{6}
-\contentsline {section}{\numberline {0.8}Justification}{6}
+\contentsline {section}{\numberline {0.1}Foreword}{1}
+\contentsline {part}{I\hspace {1em}Motivation}{2}
+\contentsline {section}{\numberline {0.2}Smart Growth}{3}
+\contentsline {subsection}{\numberline {0.2.1}Factors}{3}
+\contentsline {subsection}{\numberline {0.2.2}Our Interpretation}{3}
+\contentsline {section}{\numberline {0.3}Cities}{3}
+\contentsline {subsection}{\numberline {0.3.1}Why Oakland}{3}
+\contentsline {subsection}{\numberline {0.3.2}Why some other non-American city}{3}
+\contentsline {section}{\numberline {0.4}Goals}{3}
+\contentsline {part}{II\hspace {1em}What We Did}{4}
+\contentsline {section}{\numberline {0.5}Our Model}{5}
+\contentsline {section}{\numberline {0.6}Our Results}{5}
+\contentsline {section}{\numberline {0.7}What It Means: Our Interpretation}{5}
+\contentsline {part}{III\hspace {1em}The Answer}{6}
+\contentsline {section}{\numberline {0.8}Our Suggestions}{7}
+\contentsline {section}{\numberline {0.9}Justification}{7}

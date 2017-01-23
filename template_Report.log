@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.22)  22 JAN 2017 17:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.1.14)  22 JAN 2017 20:27
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  %&-line parsing enabled.
 **template_Report.tex
 (./template_Report.tex
-LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+LaTeX2e <2016/03/31> patch level 3
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
@@ -59,30 +59,31 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
  [1
 
-] [1] [1
+] [1] [1] [2
 
-] [2] [3
+] [3] [4
 
-] [4] [5
+] [5] [6
 
-] [6] (./template_Report.aux) ) 
+] [7]
+(./template_Report.aux) ) 
 Here is how much of TeX's memory you used:
- 257 strings out of 493029
- 2869 string characters out of 6136234
- 56061 words of memory out of 5000000
- 3865 multiletter control sequences out of 15000+600000
+ 257 strings out of 493013
+ 2869 string characters out of 6135682
+ 56260 words of memory out of 5000000
+ 3873 multiletter control sequences out of 15000+600000
  9107 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 23i,6n,18p,144b,179s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on template_Report.pdf (9 pages, 68121 bytes).
+ 23i,6n,18p,408b,179s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on template_Report.pdf (10 pages, 72463 bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
+ 57 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
