@@ -10,7 +10,7 @@
 \contentsline {part}{II\hspace {1em}What We Did}{4}
 \contentsline {section}{\numberline {0.5}Our Model}{5}
 \contentsline {section}{\numberline {0.6}Our Results}{5}
-\contentsline {section}{\numberline {0.7}What It Means: Our Interpretation}{5}
-\contentsline {part}{III\hspace {1em}The Answer}{6}
-\contentsline {section}{\numberline {0.8}Our Suggestions}{7}
-\contentsline {section}{\numberline {0.9}Justification}{7}
+\contentsline {section}{\numberline {0.7}What It Means: Our Interpretation}{10}
+\contentsline {part}{III\hspace {1em}The Answer}{11}
+\contentsline {section}{\numberline {0.8}Our Suggestions}{12}
+\contentsline {section}{\numberline {0.9}Justification}{12}

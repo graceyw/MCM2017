@@ -1,5 +1,8 @@
 \documentclass[]{report}
 
+\usepackage{graphicx}
+\usepackage{float}
+
 
 % Title Page
 \title{Sustainable Cities}
@@ -30,11 +33,10 @@
 	The city currently faces several issues. Among these are a high crime rate and a high wealth inequality, with a large number of the population living in poor-quality housing and less economically advantaged. Sonja Trauss, founder of the SF Bay Area Renter’s Federation, believes that, “The need for affordable housing in Oakland — as in San Francisco — is undeniable, Trauss says, but it should not be tackled in isolation from the rest of development.”$^{2}$ This is why we built a model that not only solves problems related to Oakland's need for housing, but also considers other areas of development.
 		
 	\section{Goals}
+
 	The aim of our work is to examine issues that Oakland faces in regards to growth and present the solutions with the greatest potential impact.
 	
-	Our work focuses on city park allocation, sizing, and suggested developments for the smart growth objectives of mixed land uses, creating walkable neighborhoods, preserving open space, and community development. Additionally, if one looks at how land values correlate to distance to park
-	
-	TODO
+	Our work focuses on city park allocation, sizing, and suggested developments for the smart growth objectives of mixed land uses, creating walkable neighborhoods, preserving open space, and community development.
 	
 	Our second focus was trying to come up with building designs to optimally target new housing and commercial developments for the goals of creating a range of housing opportunities for groups that aren't necessarily serviced by existing developments, and making development decisions cost effective to optimally allocate housing
 	
@@ -48,12 +50,83 @@
 	Using publicly available zoning information we created a heatmap of the distance to the center of open spaces for different areas in Oakland. We also found the distribution of these distances. This shows the majority of regions to be reasonably close to some sort of outdoor space. Something we hypothesized was key to creating walkable districts, as well as to give them a distinct sense of place. Several regions are further from parks, and these are places we propose focusing on. The core goal of our approach is to identify the areas where our effort would create the most impact. 
 	
 	\section{Our Results}
+	Analysis of the city of Oakland's data shows some surprising trends. If we look at existing residential developments, we see a distribution across housing costs that looks like Fig. \ref{fig:residential-kde}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\linewidth]{"img/residential KDE"}
+		\caption{Distribution of price per square foot for residentially zoned properties}
+		\label{fig:residential-kde}
+	\end{figure}
+	This figure makes sense, if we model wealth distribution as a power law distribution, we would expect an initial spike as housing prices have a bottom line, and then an exponential falloff. Indeed, points representing $\$400+/ft^2$ houses appear very little, with only 18 houses having a greater value than that.
+	
+	
+	Approved developments follow a very different distribution, as in Fig. \ref{fig:planned-kde}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\linewidth]{"img/planned KDE"}
+		\caption{}
+		\label{fig:planned-kde}
+	\end{figure}
+	
+	The two distributions are on the same axis, and we can immediately see the difference. Over 40 houses are planned with $> \$400/ft^2$ values, and the distribution doesn't look anything like a power law. If we look at where these properties are being developed, we observe a distribution like Fig. \ref{fig:planned-developments}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\linewidth]{"img/planned developments"}
+		\caption{}
+		\label{fig:planned-developments}
+	\end{figure}
+	and compare it to the total map of $\$/ft^2$, Fig. \ref{fig:cost-per-square-foot-residential}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\linewidth]{"img/cost per square foot, residential"}
+		\caption{}
+		\label{fig:cost-per-square-foot-residential}
+	\end{figure}
+	 We can see that the new developments are primarily in high-cost areas, with little development in poorer areas like East Oakland.
+	 
+	 This also manifests in commercial valuations (Fig \ref{fig:cost-per-square-foot-commercial}), with most concentrating in downtown or along major roads, making those in low-income households have to travel much more.
+	 
+	 \begin{figure}[H]
+	 	\centering
+	 	\includegraphics[width=\linewidth]{"img/cost per square foot, commercial"}
+	 	\caption{}
+	 	\label{fig:cost-per-square-foot-commercial}
+	 \end{figure}
+	 
+	 
+	 
+	 This is also very abnormal distribution considering most other developments in the city follow a power law. This is the effect of gentrification on Oakland, something that we can see does not conform to the criteria of smart growth.
+	 
+	 If we look at how parks are distributed around the city (Fig. \ref{fig:distance-to-park}), we can see a similar trend dependent on area wealth. While not as pronounced, especially due to large park-zoned areas like the Oakland zoo, the effect is still noticeable. When one considers the relative abundance in crowded downtown areas vs the existence of parks in cheaper east-oakland districts, the correlation is doubly apparent.
+	 
+	 \begin{figure}[H]
+	 	\centering
+	 	\includegraphics[width=\linewidth]{"img/distance to park"}
+	 	\caption{}
+	 	\label{fig:distance-to-park}
+	 \end{figure}
+	 
+	 The park situation exhibits power law distributions in the distance to park (Fig. \ref{fig:park-distance-histogram}), so the situation isn't terrible, but the average distance is non-trivial, especially in poorer areas. 
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\linewidth]{"img/park distance histogram"}
+		\caption{}
+		\label{fig:park-distance-histogram}
+	\end{figure}
+	
+	
+	
 	Our results show the presence of a long tail for most metrics. This indicates that while the majority of the population is within some 'normal' bound a non-trivial population exists below this. For example though most sections of the city are fairly near a park there exist sections where the density is markedly lower, correlated with low property value. By identifying the long tail we are able to target our changes to the regions that will be most affected, and which are most in need of change. 
 	
 	\section{What It Means: Our Interpretation}
 	
+	
 \part{The Answer}
 	\section{Our Suggestions}
+	Looking at our model, we can see both where to optimally locate parks (function given in the included code) and also how to plan future developments to offer a left-shifted power-law distribution in terms of both residential and commercial spaces.
+	
 	\section{Justification}
 	
 	\section{Sources}
